@@ -1,0 +1,14 @@
+PROJECT_NAME         = Metaflags
+PROJECT_NUMBER       = @PROJECT_VERSION@
+OUTPUT_DIRECTORY     = @DOXYGEN_OUTPUT_DIR@
+OUTPUT_LANGUAGE      = English
+EXTRACT_ALL          = YES
+ENABLE_PREPROCESSING = YES
+PREDEFINED           = DOXYGEN_SHOULD_SKIP_THIS
+INPUT                = @DOXYGEN_INPUT_DIR@/doc/doxygen_defs.hpp @DOXYGEN_INPUT_DIR@/include/cynodelic/metaflags/ @DOXYGEN_INPUT_DIR@/include/cynodelic/metaflags/exceptions/ @DOXYGEN_INPUT_DIR@/include/cynodelic/metaflags/preprocessor/
+RECURSIVE            = NO
+PDF_HYPERLINKS       = YES
+USE_PDFLATEX         = NO
+HAVE_DOT             = YES
+TAGFILES             = @CYNODELIC_METAFLAGS_MULINUM_DOC_DIR@/cynodelic/mulinum/cynodelic_mulinum_tagfile.tag=file://@CYNODELIC_METAFLAGS_MULINUM_DOC_DIR@/cynodelic/mulinum/html
+GENERATE_TAGFILE     = @DOXYGEN_INPUT_DIR@/doc/cynodelic_metaflags_tagfile.tag
