@@ -41,5 +41,11 @@ Run `make install` to install the library, as well as its documentation.
 
 The documentation will be installed in `path/to/your/libraries/doc/cynodelic/metaflags`.
 
+## To-do
+
+- Generate a binary search tree (preferably a red-black tree) for the argument lookup
+- Facilities for defining mutually exclusive groups of arguments
+
 ## License
+
 This library is licensed under the Boost Software License.
